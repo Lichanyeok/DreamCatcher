@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["https://github.com/Lichanyeok/DreamCatcher/blob/main/public"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
