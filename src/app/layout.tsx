@@ -13,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="m-0">{children}</body>
+      <body className="m-0">
+        <div className="my-4 mx-2">꿈 모으기 운동 이무깅</div>
+        {children}
+      </body>
     </html>
   );
 }
